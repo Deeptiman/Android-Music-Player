@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Android MusicPlayer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="music">Music Player</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="text_nointernetconnction">No Internet Connection</string>
+    <string name="no_trcks_available">No Tracks available</string>
+    <string name="slow_connection">Slow Internet Connection</string>
+    <string name="no_song">No Songs</string>
+
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+
+    <string name="title_activity_artist_music">ArtistMusicActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="add_artist_name">Artist Name</string>
+    <string name="add_music_name">Music Name</string>
+    <string name="add_album_picture">Album Picture</string>
+    <string name="add_music_url">Music URL</string>
+    <string name="add_music">Add Music</string>
+
+</resources>

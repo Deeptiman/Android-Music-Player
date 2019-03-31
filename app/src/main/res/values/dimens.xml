@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_folder_radius">0dp</dimen>
+    <dimen name="folder_cover_height">160dp</dimen>
+    <dimen name="folder_title_padding">10dp</dimen>
+    <dimen name="folder_title">15dp</dimen>
+    <dimen name="picture_count_padding_bottom">5dp</dimen>
+    <dimen name="picture_count">12dp</dimen>
+    <dimen name="ic_folder_overflow_width">20dp</dimen>
+    <dimen name="ic_folder_overflow_height">30dp</dimen>
+    <dimen name="ic_folder_overflow_margin_top">10dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+
+
+</resources>

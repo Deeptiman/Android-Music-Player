@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#e50914</color>
+    <color name="colorAccent">#e50914</color>
+
+    <color name="background">#221F1F</color>
+
+    <color name="folder_title">#221F1F</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+    <color name="stroke_white">#60ffffff</color>
+    <color name="black">#000000</color>
+    <color name="slide_menu">#75aee3ff</color>
+    <color name="grey">#d9d9d9</color>
+    <color name="scondary_color">#42bde3</color>
+    <color name="launchcell1_color1">#000000</color>
+    <color name="launchcell1_color2">#18383d</color>
+    <color name="launchcell2_color1">#000000</color>
+    <color name="launchcell2_color2">#646464</color>
+    <color name="launchcell3_color1">#318ca8</color>
+    <color name="launchcell3_color2">#95e6ff</color>
+    <color name="searchbar_hint">#9ca5a4</color>
+    <color name="sidepanel_text">#00090e</color>
+    <color name="progress_bar">#42bde3</color>
+    <color name="secondary_progress_bar">#7fddf9</color>
+    <color name="facebook_slide_menu">#003cff</color>
+    <color name="plalist_divider">#b5b5b5</color>
+    <color name="rsvp_text">#053838</color>
+    <color name="radio_button">#908B96</color>
+    <color name="event_detail_background">#30000000</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/folder_view_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="10dp"
+        card_view:cardCornerRadius="@dimen/card_folder_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/folder_item_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/folder_cover_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerCrop" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@id/folder_item_thumbnail">
+
+                <ImageView
+                    android:id="@+id/folder_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/play_sub_music"
+                    android:paddingLeft="@dimen/folder_title_padding"
+                    android:paddingRight="@dimen/folder_title_padding" />
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/music_loading"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    style="@style/AVLoadingIndicatorView"
+                    android:visibility="invisible"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    app:indicatorName="BallClipRotateIndicator"
+                    app:indicatorColor="@color/white"
+                    />
+
+                <com.example.musicplayer.visualizer.BarVisualizer
+                    xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/music_visualizer"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="invisible"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+                <com.example.musicplayer.visualizer.BarVisualizer
+                    xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/test_music_visualizer"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="invisible"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <com.example.musicplayer.customview.CustomTextView
+                    android:id="@+id/folder_item_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/folder_title_padding"
+                    android:paddingRight="@dimen/folder_title_padding"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <com.example.musicplayer.customview.CustomTextView
+                    android:id="@+id/folder_item_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/folder_item_label"
+                    android:paddingLeft="@dimen/folder_title_padding"
+                    android:paddingRight="@dimen/folder_title_padding"
+                    android:paddingBottom="@dimen/picture_count_padding_bottom"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/picture_count" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/testt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_single_line"
+    android:textColor="@color/black"
+    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+    style="?android:attr/dropDownItemStyle"
+    android:maxLines="1"
+    android:padding="3dp"
+    android:textSize="18sp" />
