@@ -2,16 +2,16 @@
 
 It's simple demonstration of Android Music Player using MediaPlayer, Firebase & Realm Database
 
-# Application Demo
+### Application Demo
 
 <img src="/ScreenShots/album_list.png" width="350"  />
 
-# Music Player
+### Music Player
 
 <img src="/ScreenShots/player_screen.png" width="350"  />
 
 
-# Add Music
+### Add Music
 
 <img src="/ScreenShots/add_music_screen.png" width="350"  />
 
