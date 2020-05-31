@@ -20,5 +20,8 @@ It's simple demonstration of Android Music Player using MediaPlayer, Firebase & 
 
  - [https://firebase.google.com/](https://firebase.google.com/)
  - [https://realm.io/](https://realm.io/)
+ 
+### License
+This project is licensed under the [(MIT License)](https://github.com/Deeptiman/Android-Music-Player/blob/master/LICENSE)
 
 
