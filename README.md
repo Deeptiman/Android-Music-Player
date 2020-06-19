@@ -1,4 +1,5 @@
 # Android-Music-Player
+<p>     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deeptiman/Android-Music-Player">  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Deeptiman/Android-Music-Player"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Deeptiman/Android-Music-Player"></p>
 
 It's simple demonstration of Android Music Player using MediaPlayer, Firebase & Realm Database
 
